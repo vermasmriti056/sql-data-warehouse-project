@@ -59,7 +59,7 @@ sls_due_dt	INT,
 sls_sales	INT,
 sls_quantity INT,
 sls_price INT);
-GO;
+GO
 
 IF OBJECT_ID('bronze.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE bronze.erp_cust_az12;
